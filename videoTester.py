@@ -9,7 +9,7 @@ from faceRecognition import *
 face_recognizer = cv2.face.LBPHFaceRecognizer_create()
 face_recognizer.read('/home/sam/Desktop/python/face_reginition/trainingData.yml')
 
-name={0:"Rami",1:"Henry",2:"sam"}
+name={0:"Rami",1:"Henry",2:"sam",3:"Shreyash",4:"Chirag"}
 cap=cv2.VideoCapture(0)
 
 while True:
